@@ -1,0 +1,39 @@
+SE important Questions
+
+@Unit 1..
+1.Define the terms and write in brief about following : i)Software process, ii)requirements specifications, iii)Software design, iv)Software testing and validation v) Software evolution vi)  Project management.
+2.Explain the prototyping model in detail.
+3.Differentiate between the functional and non-functional requirements.
+4.With th help of neat sketch explain the V model in detail.
+5.Explain object-oriented design with the help of example UML design diagrams.
+6.Who are stake holders in SE? What is role and resposiblity  of the stake holder with jusitification why is it wrong ?
+7.Draw the detailed DFD for M.Tech result declaration for certain university . state the assumptions.
+
+
+@Unit 2..
+1.Explain various formal specification techniques used in requirement elicitation.
+2.Explain the importance and IEEE structure of SRS with format.
+3.Explain the Spiral model in detail.
+4.What is modularity ? Explain the coupling in detail with types.
+5.What is system testing? what technique fall under system testing ? Explain.
+6.What is Requirements elicitation? What are the steps in requirement analysis modeling technique?Explain.
+7.What are structure design strategies ?Explain top down botoom up and hybride design.
+8. Explain the importance and IEEE structure of SRS.
+
+
+@Unit 3..
+1.What are different techniques used in black box testing ? Explain BVA, Equivalence class, Decision table with suitable example.
+2.What are different techniques used in white box testing? Explain DD path, Cycle -metro complexity , mutation testing suitable example.
+3.Explain how testing at various level are carried out? Explain alpha, stress, security , UAT with example.
+4.Explain how the testing at various levels are carried out.
+5.What are different techniques used in white box testing ?Explain with suitble example.
+
+@Unit 4..
+1.Explain maintenece process with neat diagram.
+2.Explain the iterative enhance model & Taut's model used for maintenence.
+
+
+@Unit 5..
+1.Compare manual testing with autonmated testing.
+2.Compare reverse engineering with re-engineering.
+3.
