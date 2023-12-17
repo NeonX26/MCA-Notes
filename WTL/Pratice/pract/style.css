@@ -1,0 +1,12 @@
+body{
+    background-color: aqua;
+}
+h1{
+    color: navy;
+    text-decoration: underline;
+    text-align: center;
+}
+p{
+    text-indent: 60px;
+    font-weight: normal;
+}

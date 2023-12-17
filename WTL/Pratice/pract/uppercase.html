@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpperCase</title>
+    <script>
+        function uppercasecon(){
+           var str=document.getElementById('myInput').value;
+           str=str.toUpperCase();
+           document.getElementById('myInput').value=str;
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        <label for="myInput">Enter a String:</label>
+        <input type="text" name="myInput" id="myInput">
+        <button type="button" onclick="uppercasecon()">Convert</button>
+    </form>
+</body>
+</html>

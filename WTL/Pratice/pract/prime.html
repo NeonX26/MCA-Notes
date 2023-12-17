@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpperCase</title>
+    <script>
+        function isPrime(){
+           var num=parseInt(document.getElementById('myInput').value);
+           var result="Prime";
+           if(num==1){
+            result=" not prime nor composite";
+           }
+           else{
+           for(var i=2;i<=num/2;i++){
+            if(num%i==0){
+                result="Not Prime"
+            }
+           }}
+           document.getElementById('result').innerHTML="Number is "+result;
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        <label for="myInput">Enter a number</label>
+        <input type="number" name="myInput" id="myInput">
+        <!-- <input type="text" id="result"> -->
+        <button type="button" onclick="isPrime()">check prime</button>
+    </form>
+    <p id="result"></p>
+</body>
+</html>

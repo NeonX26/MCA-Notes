@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpperCase</title>
+    <script>
+        function factorial(){
+           var num=document.getElementById('myInput').value;
+           var fact=1;
+           for(var i=2;i<=num;i++){
+            fact*=i;
+           }
+           document.getElementById('result').innerHTML="Factorial is "+fact;
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        <label for="myInput">Enter a number</label>
+        <input type="number" name="myInput" id="myInput">
+        <p id="result"> </p>
+        <!-- <input type="text" id="result"> -->
+        <button type="button" onclick="factorial()">Convert</button>
+    </form>
+</body>
+</html>

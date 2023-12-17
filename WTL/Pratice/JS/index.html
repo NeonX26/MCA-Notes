@@ -1,0 +1,20 @@
+<!-- Write a Javascript code which checks the contents entered in a forms text element. If the text entered is in the lower cases convert to upper case. -->
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    function convertToUpperCase() {
+      var inputText = document.getElementById("myInput").value;
+      var convertedText = inputText.toUpperCase();
+      document.getElementById("myInput").value = convertedText;
+    }
+  </script>
+</head>
+<body>
+  <form>
+    <label for="myInput">Enter Text:</label>
+    <input type="text" id="myInput" name="myInput">
+    <button type="button" onclick="convertToUpperCase()">Convert to Uppercase</button>
+  </form>
+</body>
+</html>

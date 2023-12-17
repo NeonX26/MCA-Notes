@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function result(){
+            var total=0;
+            var result="Pass";
+            var phy=parseInt(document.getElementById('phy').value);
+            var chem=parseInt(document.getElementById('chem').value);
+            var maths=parseInt(document.getElementById('maths').value);
+            var eng=parseInt(document.getElementById('eng').value);
+            var cs=parseInt(document.getElementById('cs').value);
+            total=phy+chem+maths+eng+cs;
+            var avg=total/5;
+            var grade;
+            if(avg>90){
+                grade="A";
+            }
+            else if(avg>80){
+                grade="B";
+            }
+            else if(avg>70){
+                grade="C";
+            }
+            else if(avg>60){
+                grade="D";
+            }
+            else{
+                grade="F";
+                result="Fail";
+            }
+            document.getElementById('result1').innerHTML="Total: "+total+"<br>Average: "+avg+"<br>Grade: "+grade+"<br>Result: "+result;
+        }
+    </script>
+</head>
+<body>
+    <form >
+        Enter Name: <input type="text" id="name"><br>
+        Physics: <input type="number" id="phy"><br>
+        Chem: <input type="number" id="chem"><br>
+        Maths: <input type="number" id="maths"><br>
+        English: <input type="number" id="eng"><br>
+        CS: <input type="number" id="cs"><br>
+        <button type="button" onclick="result();">Result</button>
+    </form>
+    <p id="result1"></p>
+</body>
+</html>
